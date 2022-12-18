@@ -1,5 +1,5 @@
 <h2 align="center">Create an executable script</h2>
-<p align="center"><img width="350" height="350" src="https://a.top4top.io/p_2505pecmc1.png"></p>
+<p align="center"><img width="350" height="350" src="./src/CNPH.png"></p>
 
 - - - - - - - - - - - - - - - - - - - - - -
 Script files should be named in a **file_name.extension** format such as **script.sh** 
