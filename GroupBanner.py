@@ -1,4 +1,5 @@
-RED='\033[31m'
+# \033 \x1b \u001b are Escape Characters
+RED='\033[31m' # \x1b[31m or \u001b[31m
 BLUE='\033[34m'
 WHITE='\033[37m'
 YELLOW='\033[33m'
