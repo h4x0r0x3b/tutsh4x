@@ -171,6 +171,22 @@ $ bash -xev script.sh
 ```bash
 $ python script.py
 ```
+**JAVA :**
+> Script :
+```java
+// Can run script without #!shebang
+public class script {
+    public static void main(String args[]) {
+    }
+}
+```
+> Command Line :
+```bash
+# create a .class of script.java
+$ javac script.java
+# run generated script.class
+$ java script
+```
 - - - - - - - - - - - - - - - - - - - - - -
 Pass an **Argument** to a script from Command Line
 
@@ -193,20 +209,37 @@ OUTPUT: Hello 0x3b
 #!/usr/bin/python
 print("Hello", __import__('sys').argv[1])
 ```
+> Command Line :
+```python
+$ ./script.py 0x3b
+OUTPUT: Hello 0x3b
+```
 > Alternative :
 ```python
-#!/usr/bin/python
+# Can run script without #!shebang
 import sys
 print("Hello %s" % sys.argv[1])
 ```
 > Command Line :
 ```python
-# Can run script without #!shebang
 $ python script.py 0x3b
 OUTPUT: Hello 0x3b
 ```
-> Alternative :
-```python
-$ ./script.py 0x3b
+**JAVA :**
+> Script :
+```java
+// Can run script without #!shebang
+public class script {
+    public static void main(String args[]) {
+        System.out.print("Hello " + args[0]);
+    }
+}
+```
+> Command Line :
+```bash
+# create a .class of script.java
+$ javac script.java
+# run generated script.class with argument
+$ java script 0x3b
 OUTPUT: Hello 0x3b
 ```
