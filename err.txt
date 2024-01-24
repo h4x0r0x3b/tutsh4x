@@ -1,5 +1,0 @@
-Removing duplicate launchers or broken launchers
- [-] Missing executable file kwin_rules_dialog at launcher /usr/share/applications/org.kde.kwin_rules_dialog.desktop
- [-] Missing executable file knewstuff-dialog at launcher /usr/share/applications/org.kde.knewstuff-dialog.desktop
- [-] Missing executable file lxqt-sudo at launcher /usr/share/applications/software-properties-lxqt.desktop
-
