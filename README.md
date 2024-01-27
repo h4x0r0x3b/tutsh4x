@@ -23,5 +23,5 @@
 
 ## Download :
 ```bash
-git clone https://github.com/setrivayne/tutsh4x.git
+git clone https://github.com/h4x0r0x3b/tutsh4x.git
 ```
